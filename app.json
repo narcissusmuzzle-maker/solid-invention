@@ -1,0 +1,52 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1061364,
+    "appName": "Calib",
+    "appType": "app",
+    "version": {
+      "code": 2,
+      "name": "1.1.0"
+    },
+    "icon": "icon.png",
+    "vender": "luv613",
+    "description": "Калибровка экрана"
+  },
+  "permissions": [
+    "device:os.local_storage"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.6",
+      "target": "3.6",
+      "minVersion": "3.6"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "st": "s",
+          "sr": "w432"
+        }
+      ],
+      "designWidth": 432
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Calib"
+    },
+    "ru-RU": {
+      "appName": "Calib"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
